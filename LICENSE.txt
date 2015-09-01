@@ -1,3 +1,4 @@
 this is a practice license.
 this is the second line of practice.
 free license.
+git pull is just a git fetch followed by a git merge.
