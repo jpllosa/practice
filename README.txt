@@ -8,3 +8,4 @@ modify your files.
 then you git add files.
 next you git commit -am "meaningful message for this commit"
 lastly git push <URL>
+you can <URL> by copy and paste from github.com clone url option
