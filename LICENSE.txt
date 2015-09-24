@@ -7,3 +7,4 @@ here is a new license, a new license plate number
 that costs Php400.00
 but it looks good.  seems to better than the old one.
 then again, it's new.
+why don't these lines reach column 70?
