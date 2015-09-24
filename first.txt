@@ -10,3 +10,6 @@ so, he whipped out his umbrella which
 bought from nijosa.  a high quality 
 umbrella.  but a quick brown fox
 jumped over the lazy dog-wolf.
+
+and for the sake of issue #2.  we shall mark our commit with fixed #2.
+hahaha it ended on column 70.
