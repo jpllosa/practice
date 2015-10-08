@@ -89,3 +89,12 @@ jpllosa@ASUS_K43S /D/oracle_com-java/refresher/workspace/practice (master)
 hmmm... i wonder what this means.
 hmmm... i just noticed that my git commit message was misspelled.
 "practiceing" damn, how do you change a committed message?
+
+got it. so to change the message of a commit which has been pushed.
+we do a "git rebase -i HEAD~3"
+3 means the last 3 commits, then vi pops up or is it emacs, for sure
+it's a unix editor. so you change the word pick to reword then
+save the file.  after that vi pops up again, this is the commit
+message that you will reword.  after saving, we
+git push --force <URL>
+that's all there is to it.
