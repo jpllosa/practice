@@ -51,3 +51,9 @@ aa7638ac (jpllosa 2015-09-24 22:18:35 +0800 15)
 
 ah, okay, this shows who committed and when but within the scope
 of -L 10,15 which is line/commit 10 to 15
+
+new DbUnit idea
+instead of subclassing DBTestCase class, you use JUnit and inside the test
+method you wrap the JDBC connection to IDatabasseConnection with the concrete
+class DatabaseConnection.  Then you can use IDatabaseConnection as parameter
+to DatabaseOperation.CLEAN_INSERT.execute();
