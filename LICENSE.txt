@@ -10,3 +10,17 @@ then again, it's new.
 why don't these lines reach column 70?
 
 this is for issue #2.  let us reach column number 70.  abcdefghijklm70
+
+typical enterprise applications are very large:
+1.  thousands/millions of lines of code
+2.  maintained for a long time (years/decades)
+3.  contantly changing (business competition, new technologies)
+
+so... enterprise applications are designed in layers and each
+layer with its own responsibility.  the common layers are:
+1. Presentation - User Interface/Other Software
+2. Service - serves presentation layer
+3. Domain - contains business logic
+4. Persistence - DAO/Repository/Database
+some systems combine layers
+
